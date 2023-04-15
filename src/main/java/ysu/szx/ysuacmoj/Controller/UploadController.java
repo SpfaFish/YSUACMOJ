@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
+import ysu.szx.ysuacmoj.Dao.StuDao;
 import ysu.szx.ysuacmoj.Mapper.StuMapper;
 import ysu.szx.ysuacmoj.Peo.Stu;
 
@@ -18,10 +19,10 @@ import java.util.UUID;
 @RestController
 public class UploadController {
     @Autowired
-    private StuMapper stuMapper;
+    private StuDao stuDao;
     @PostMapping("/upload")
     public String upload(String id, String password, MultipartFile file) throws Exception {
-        Stu Stu = stuMapper.GetByPassword(id, password);
+        Stu Stu = stuDao.GetByPassword(id, password);
         if(Stu == null) return "Fail";
         String originalFilename = file.getOriginalFilename();
 //        int index = originalFilename.lastIndexOf(".");
