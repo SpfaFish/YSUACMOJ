@@ -1,5 +1,6 @@
 # YSUACMOJ
-使用Vue + Spring boot 框架
+使用Spring boot + Mybaties框架
+
 使用 Meaven 管理项目
 已实现功能
 - 注册
