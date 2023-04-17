@@ -5,20 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43eab339-aece-44e0-b758-51abb1ee69dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Filter/LoginCheckFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Filter/SmallFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Pojo/Results.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/YsuacmojApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/YsuacmojApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ysu/szx/ysuacmoj/YsuacmojApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ysu/szx/ysuacmoj/YsuacmojApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Dao/StuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Dao/StuDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Mapper/StuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Mapper/StuMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/YsuacmojApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/YsuacmojApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ysu/szx/ysuacmoj/YsuacmojApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ysu/szx/ysuacmoj/YsuacmojApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Filter/LoginCheckFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/SignIn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/SignUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/SignUp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/RegisterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/UploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Dao/StuDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Filter/LoginCheckFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Filter/SmallFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Mapper/StuMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Peo/Stu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Pojo/Results.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Service/LoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Service/RegisterService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Utils/JwtUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/YsuacmojApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ysu/szx/ysuacmoj/YsuacmojApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,30 +64,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Spring Boot.YsuacmojApplication">
     <configuration name="YsuacmojApplicationTests.TtestJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YSUACMOJ" />
@@ -161,6 +168,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

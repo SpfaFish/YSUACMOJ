@@ -27,7 +27,8 @@ public class LoginCheckFilter implements Filter {
         HttpServletRequest req = (HttpServletRequest) servletRequest;
         HttpServletResponse resp = (HttpServletResponse) servletResponse;
         String url = req.getRequestURL().toString();
-
+        System.out.println(url);
+//        System.out.println(req);
         if(url.contains("login")){
             filterChain.doFilter(servletRequest, servletResponse);//放行
             return;
