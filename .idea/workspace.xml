@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43eab339-aece-44e0-b758-51abb1ee69dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Filter/LoginCheckFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Filter/SmallFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Pojo/Results.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Utils/JwtUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/YsuacmojApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/YsuacmojApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ysu/szx/ysuacmoj/YsuacmojApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ysu/szx/ysuacmoj/YsuacmojApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Dao/StuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Dao/StuDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Mapper/StuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Mapper/StuMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/YsuacmojApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/YsuacmojApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ysu/szx/ysuacmoj/YsuacmojApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ysu/szx/ysuacmoj/YsuacmojApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +41,6 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
         <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="E:\Maven\apache-maven-3.9.1\conf\settings.xml" />
       </MavenGeneralSettings>
@@ -60,7 +72,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propCompiler",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -70,6 +82,22 @@
   }
 }]]></component>
   <component name="RunManager" selected="Spring Boot.YsuacmojApplication">
+    <configuration name="YsuacmojApplicationTests.TtestJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="YSUACMOJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ysu.szx.ysuacmoj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ysu.szx.ysuacmoj" />
+      <option name="MAIN_CLASS_NAME" value="ysu.szx.ysuacmoj.YsuacmojApplicationTests" />
+      <option name="METHOD_NAME" value="TtestJwt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="YsuacmojApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YSUACMOJ" />
       <extension name="coverage">
@@ -86,6 +114,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YsuacmojApplicationTests.testParseJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="YSUACMOJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ysu.szx.ysuacmoj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ysu.szx.ysuacmoj" />
+      <option name="MAIN_CLASS_NAME" value="ysu.szx.ysuacmoj.YsuacmojApplicationTests" />
+      <option name="METHOD_NAME" value="testParseJwt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="YsuacmojApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="YSUACMOJ" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ysu.szx.ysuacmoj.YsuacmojApplication" />
@@ -95,6 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.YsuacmojApplicationTests.testParseJwt" />
+        <item itemvalue="JUnit.YsuacmojApplicationTests.TtestJwt" />
         <item itemvalue="JUnit.YsuacmojApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
@@ -115,5 +161,20 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/ysu/szx/ysuacmoj/YsuacmojApplicationTests.java</url>
+          <line>28</line>
+          <properties class="ysu.szx.ysuacmoj.YsuacmojApplicationTests" method="TtestJwt">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<script>
+    const token = localStorage.getItem('token');
+    const payload = token.split('.')[1];
+    const decodedPayload = atob(payload);
+    const data = JSON.parse(decodedPayload);
+    const usernameElement = document.getElementById('username');
+    usernameElement.textContent = data.username;
+</script>
+<head>
+    <meta charset="UTF-8">
+    <title>YSUACMOJ.UserMain</title>
+    <style>
+        /* 样式设置 */
+        body{
+            background-color: #cccccc;
+        }
+        .dif1{
+            background-color: aquamarine;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            border-radius: 3px;
+        }
+        .dif2{
+            background-color: aqua;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            border-radius: 3px;
+        }
+        .dif3{
+            background-color: cornflowerblue;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            border-radius: 3px;
+        }
+        .dif4{
+            background-color: blueviolet;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            border-radius: 3px;
+        }
+        .dif5{
+            background-color: firebrick;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            border-radius: 3px;
+        }
+        .dif6{
+            background-color: black;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            border-radius: 3px;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        .menu-item {
+            margin-left: 40px;
+            text-decoration: none;
+            color: #fff;
+        }
+        .ACMOJ {
+            margin-left: 50px;
+            text-decoration: none;
+            color: #fff;
+        }
+        .menu-item:hover {
+            text-decoration: underline;
+        }
+        .pages {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .page-link {
+            margin-right: 10px;
+            text-decoration: none;
+        }
+        .page-link:hover {
+            text-decoration: underline;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border-radius: 40px;
+        }
+        th, td {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .btn {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #3e8e41;
+        }
+        .search{
+            padding: 5px 10px;
+            margin-left: 40px;
+        }
+        .container{
+            padding: 50px 100px;
+            line-height: 0.5;
+            background-color: white;
+        }
+        table{
+            #box-shadow: 0 0 10px #cccccc;
+            border-collapse: collapse;
+        }
+        td, th {
+            border-right: none;
+            border-left: none;
+        }
+        .userid{
+            margin-left: 700px;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div>
+        <a href="#" class="menu-item">用户信息</a>
+        <a href="#" class="menu-item">比赛</a>
+        <a href="#" class="ACMOJ">Welcome to YSUACMOJ!</a>
+
+        <input class="search" type="text" id="searchBox">
+        <button class="btn" onclick="search()">搜索</button>
+        <a class="userid">
+            用户名:<span id="username"></span>
+        </a>
+    </div>
+
+</div>
+
+<div class="container">
+    <table>
+        <thead>
+        <tr>
+            <th>题号</th>
+            <th>题目名</th>
+            <th>通过人数</th>
+            <th>难度</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1001</td>
+            <td>两数之和</td>
+            <td>0</td>
+            <td><a class="dif1">简单</a></td>
+            <td><a href="#" class="btn">详情</a></td>
+        </tr>
+        <!-- 其他题目条目 -->
+        <tr>
+            <td>1002</td>
+            <td>两数之积</td>
+            <td>0</td>
+            <td><a class="dif2">一般</a></td>
+            <td><a href="#" class="btn">详情</a></td>
+        </tr>
+
+        <tr>
+            <td>1003</td>
+            <td>两数之积加强版</td>
+            <td>114514</td>
+            <td><a class="dif3">困难</a></td>
+            <td><a href="#" class="btn">详情</a></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div class="pages">
+        <a href="#" class="page-link">1</a>
+        <a href="#" class="page-link">2</a>
+        <a href="#" class="page-link">3</a>
+        <a href="#" class="page-link">4</a>
+        <!-- 其他分页链接 -->
+    </div>
+</div>
+</body>
+</html>
