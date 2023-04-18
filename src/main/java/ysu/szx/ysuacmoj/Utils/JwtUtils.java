@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class JwtUtils {
     private static String signKey = "rootPassword";
-    private static Long expire = 3600000L;//1h
+    private static Long expire = 3600000 * 24L;//24h
     public static String GetStringJwt(Map<String, Object> claims){
        String jwt = Jwts.builder()
                 .signWith(SignatureAlgorithm.HS256, signKey)//签名算法

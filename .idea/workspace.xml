@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43eab339-aece-44e0-b758-51abb1ee69dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/FileLoadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Service/FileTraversalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/UploadFile/root/123.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Filter/LoginCheckFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Utils/FileTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Utils/FileTraversalUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ysu/szx/ysuacmoj/YsuacmojApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ysu/szx/ysuacmoj/YsuacmojApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/SignUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/SignUp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/RegisterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Service/RegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Service/RegisterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/FileLoadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/FileLoadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Service/FileTraversalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Service/FileTraversalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Utils/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Utils/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/FileLoadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/FileLoadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Filter/LoginCheckFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Filter/LoginCheckFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Service/FileTraversalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Service/FileTraversalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Utils/JwtUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Utils/JwtUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.YsuacmojApplicationTests.testParseJwt">
+  <component name="RunManager" selected="Spring Boot.YsuacmojApplication">
     <configuration name="YsuacmojApplicationTests.TtestJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YSUACMOJ" />
       <extension name="coverage">
@@ -155,7 +155,7 @@
       <workItem from="1681533009699" duration="210000" />
       <workItem from="1681533224582" duration="131000" />
       <workItem from="1681533362920" duration="8894000" />
-      <workItem from="1681789413581" duration="3968000" />
+      <workItem from="1681789413581" duration="8347000" />
     </task>
     <servers />
   </component>
@@ -164,5 +164,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Utils/FileTraversalUtils.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Service/FileTraversalService.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
