@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<script>
-  const token = localStorage.getItem('token');
-  const payload = token.split('.')[1];
-  const decodedPayload = atob(payload);
-  const data = JSON.parse(decodedPayload);
-  const usernameElement = document.getElementById('username');
-  usernameElement.textContent = data.username;
-</script>
+
 <head>
   <meta charset="UTF-8">
   <title>YSUACMOJ.GYM</title>
@@ -167,7 +160,7 @@
 <div class="header">
   <div>
     <a href="#" class="menu-item">用户信息</a>
-    <a href="#" class="menu-item">题库</a>
+    <a href="./UserMainPage.html" class="menu-item">题库</a>
     <a href="#" class="ACMOJ">Welcome to YSUACMOJ!</a>
 
     <a class="userid">
@@ -209,4 +202,12 @@
   </div>
 </div>
 </body>
+<script>
+  const token = localStorage.getItem('token');
+  const payload = token.split('.')[1];
+  const decodedPayload = atob(payload);
+  const data = JSON.parse(decodedPayload);
+  const usernameElement = document.getElementById('username');
+  usernameElement.textContent = data.id;
+</script>
 </html>

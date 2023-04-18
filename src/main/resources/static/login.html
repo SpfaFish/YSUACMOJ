@@ -60,7 +60,7 @@
 <div class="login-box">
     <h2 style="text-align:center">欢迎登录</h2>
 
-    <form id="login-form" onsubmit="return login()">
+    <form id="login-form" >
         <label for="username">用户名</label>
         <input type="text" id="username" name="username" placeholder="请输入用户名" required>
 
@@ -88,21 +88,17 @@
             headers: { 'Content-Type': 'application/json'},
             body: JSON.stringify({id, password})
         })
-            .then(response =>{
-                response.json()
+            .then(response => {
+                response.json().then(data => {
+                    if (data.code === 1) {
+                        alert("ok");
+                        localStorage.setItem('token', data.data); // 存储 JWT Token
+                        window.location.href = './UserMainPage.html';
+                    } else {
+                        alert("fail");
+                    }
+                })
             })
-            .then(data => {
-                alert(data);//un fixed
-                if (data.data.code === 1 && data.data.msg === 'success') {
-                    alert(data.data.code);
-                    localStorage.setItem('token', data.data); // 存储 JWT Token
-                    window.location.href = './UserMainPage.html';
-                } else {
-                    alert(data.msg);
-                }
-            })
-            .catch(error => console.error(error));
-            alert(url);
     });
 
 </script>
