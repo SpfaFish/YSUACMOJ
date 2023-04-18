@@ -5,27 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43eab339-aece-44e0-b758-51abb1ee69dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Dao/CompetitionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Dao/CompetitionHeaderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Mapper/CompetitionHeaderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Mapper/CompetitionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Pojo/Competition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Pojo/CompetitionHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Utils/FileTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/52c631d7-8e3b-4147-a77f-d84035465aea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/52c631d7-8e3b-4147-a77f-d84035465aea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/54f4dcff-0171-4b59-aeb6-a61790836f35/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/54f4dcff-0171-4b59-aeb6-a61790836f35/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/54f4dcff-0171-4b59-aeb6-a61790836f35/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/54f4dcff-0171-4b59-aeb6-a61790836f35/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Filter/LoginCheckFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/SignIn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/SignUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/SignUp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/RegisterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/UploadController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Dao/StuDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Filter/LoginCheckFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Filter/SmallFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Mapper/StuMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Peo/Stu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Pojo/Results.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Service/LoginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Service/RegisterService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Utils/JwtUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/YsuacmojApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ysu/szx/ysuacmoj/YsuacmojApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Service/RegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Service/RegisterService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -64,30 +59,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "59d65d78c51fa71ddd4054566aa1fab9",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Spring Boot.YsuacmojApplication">
     <configuration name="YsuacmojApplicationTests.TtestJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YSUACMOJ" />
@@ -163,6 +159,7 @@
       <workItem from="1681533009699" duration="210000" />
       <workItem from="1681533224582" duration="131000" />
       <workItem from="1681533362920" duration="8894000" />
+      <workItem from="1681789413581" duration="1980000" />
     </task>
     <servers />
   </component>
