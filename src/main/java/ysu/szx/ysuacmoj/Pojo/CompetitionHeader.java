@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CompetitionHeader {
-    String id;
     String name;
     Integer flag;//check if it is rated
 }

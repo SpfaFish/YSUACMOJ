@@ -23,6 +23,7 @@ import java.util.UUID;
 
 @Slf4j
 @RestController
+@CrossOrigin(origins = "*")
 public class UploadController {
     @Autowired
     private StuDao stuDao;

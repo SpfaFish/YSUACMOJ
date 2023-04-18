@@ -5,24 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43eab339-aece-44e0-b758-51abb1ee69dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/FileDownloadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Service/FileDownloadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UploadFile/root/2023-04-18 17-25-10-2023-04-18 17-25-101.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UploadFile/root/2023-04-18 17-31-25-2023-04-18 17-31-251.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/CompetitionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/StuInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Service/CompetitionListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Service/CompetitionRegistService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/FileDownloadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/FileDownloadController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/FileLoadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/FileLoadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/RegisterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Dao/CompetitionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Dao/CompetitionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Dao/CompetitionHeaderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Dao/CompetitionHeaderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Filter/LoginCheckFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Mapper/CompetitionHeaderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Mapper/CompetitionHeaderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Mapper/CompetitionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Mapper/CompetitionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Pojo/Competition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Pojo/Competition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Pojo/CompetitionHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Pojo/CompetitionHeader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Service/FileTraversalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Service/FileTraversalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Utils/FileTraversalUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Utils/FileTraversalUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/UploadFile/root/123.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UploadFile/root/123.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/FileLoadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/FileLoadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/UploadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/FileDownloadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/FileDownloadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Dao/CompetitionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Dao/CompetitionDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Dao/CompetitionHeaderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Dao/CompetitionHeaderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Filter/LoginCheckFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Filter/LoginCheckFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Mapper/CompetitionHeaderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Mapper/CompetitionHeaderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Mapper/CompetitionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Mapper/CompetitionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Pojo/Competition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Pojo/Competition.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Pojo/CompetitionHeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Pojo/CompetitionHeader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Service/FileTraversalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Service/FileTraversalService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Utils/FileTraversalUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Utils/FileTraversalUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +169,7 @@
       <workItem from="1681533009699" duration="210000" />
       <workItem from="1681533224582" duration="131000" />
       <workItem from="1681533362920" duration="8894000" />
-      <workItem from="1681789413581" duration="15552000" />
+      <workItem from="1681789413581" duration="21670000" />
     </task>
     <servers />
   </component>

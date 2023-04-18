@@ -9,17 +9,15 @@ import org.springframework.http.ContentDisposition;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.multipart.MultipartFile;
-import ysu.szx.ysuacmoj.Pojo.Results;
 import ysu.szx.ysuacmoj.Service.FileDownloadService;
 import ysu.szx.ysuacmoj.Utils.JwtUtils;
-
-import java.io.File;
 import java.io.IOException;
 
 @RestController
+@CrossOrigin(origins = "*")
 public class FileDownloadController {
     @Autowired
     private FileDownloadService fileDownloadService;

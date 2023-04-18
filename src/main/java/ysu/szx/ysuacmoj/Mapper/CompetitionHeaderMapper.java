@@ -3,12 +3,18 @@ package ysu.szx.ysuacmoj.Mapper;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
+import ysu.szx.ysuacmoj.Pojo.Competition;
 import ysu.szx.ysuacmoj.Pojo.CompetitionHeader;
+
+import java.util.ArrayList;
 
 @Mapper
 public interface CompetitionHeaderMapper {
-    @Select("select id, password from competitionHeader where name = #{name}")
+    @Select("select (id, name, flag) from competitionHeader where name = #{name}")
     public CompetitionHeader GetByName(String name);
+
+    @Select("select * from competition")
+    public ArrayList<CompetitionHeader> GetAllCompetition();
 
     @Insert("insert into competition (id, name, flag) values (#{id}, #{name}, #{flag})")
     public Integer Insert(CompetitionHeader competitionHeader);

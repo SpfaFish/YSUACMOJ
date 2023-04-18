@@ -6,6 +6,8 @@ import org.apache.ibatis.annotations.Select;
 import ysu.szx.ysuacmoj.Peo.Stu;
 import ysu.szx.ysuacmoj.Pojo.Competition;
 
+import java.util.ArrayList;
+
 @Mapper
 public interface CompetitionMapper {
     @Select("select id, password from competition where id = #{id}")
@@ -14,6 +16,11 @@ public interface CompetitionMapper {
     @Select("select id, password from competition where name = #{name}")
     public Competition GetByName(String name);
 
+    @Select("select * from competition")
+    public ArrayList<Competition> GetAllCompetition();
+
     @Insert("insert into competition (id, name, stuId, score) values (#{id}, #{name}, #{stuId}, #{score})")
     public Integer Insert(Competition competition);
+
+
 }

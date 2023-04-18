@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Competition {
-    String id;
     String name;
     String stuId;
     Float score;
