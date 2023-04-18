@@ -83,11 +83,6 @@
         const id = document.getElementById('username').value;
         const password = document.getElementById('password').value;
         const url = 'http://localhost:9000/login';
-        // const formData = new FormData();
-        // formData.append('id', id);
-        // formData.append('password', password);
-
-        // alert("in here");
         fetch(url, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json'},
@@ -97,6 +92,7 @@
                 response.json()
             })
             .then(data => {
+                alert(data);//un fixed
                 if (data.code === 1 && data.msg === 'success') {
                     alert("Yes");
                     localStorage.setItem('token', data.data); // 存储 JWT Token

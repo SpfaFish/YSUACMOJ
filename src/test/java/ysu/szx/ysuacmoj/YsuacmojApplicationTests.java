@@ -41,7 +41,7 @@ class YsuacmojApplicationTests {
 	public void testParseJwt(){
 		Claims claims = Jwts.parser()
 				.setSigningKey("password")//指定密钥
-				.parseClaimsJws("eyJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoidGVzdCIsImlkIjoxLCJleHAiOjE2ODE3MjQ0NTV9.o_cHxzHOwWKR9t3FhA6uKXvc4-s8LiTPf2YoP-H5Ir0")
+				.parseClaimsJws("eyJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoidGVzdCIsImlkIjoxLCJleHAiOjE2ODE3OTY2MjV9.rgLu0n7upb2Vb0SmHaMEgnAE-7H5OXnZCN2alG_rG1U")
 				.getBody();
 		System.out.println(claims);
 	}
