@@ -93,10 +93,10 @@
             })
             .then(data => {
                 alert(data);//un fixed
-                if (data.code === 1 && data.msg === 'success') {
-                    alert("Yes");
+                if (data.data.code === 1 && data.data.msg === 'success') {
+                    alert(data.data.code);
                     localStorage.setItem('token', data.data); // 存储 JWT Token
-                    window.location.href = '/UserMainPage.html';
+                    window.location.href = './UserMainPage.html';
                 } else {
                     alert(data.msg);
                 }

@@ -1,0 +1,3 @@
+alias +jumpthrow"+jump;-attack;-attack2"; alias -jumpthrow -jump; bind v +jumpthrow
+
+ma1.r9mc.cn:10024

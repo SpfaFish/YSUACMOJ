@@ -9,7 +9,7 @@ public class FileTraversalUtils {
         if (folder.isDirectory()) {
             File[] files = folder.listFiles();
             for (File file : files) {
-                list.add(files.toString());
+                list.add(file.getName());
             }
         }
         return list;

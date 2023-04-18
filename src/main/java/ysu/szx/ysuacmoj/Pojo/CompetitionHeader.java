@@ -10,5 +10,5 @@ import lombok.NoArgsConstructor;
 public class CompetitionHeader {
     String id;
     String name;
-    Boolean flag;//check if it is rated
+    Integer flag;//check if it is rated
 }

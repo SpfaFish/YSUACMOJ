@@ -21,6 +21,6 @@ public class FileLoadController {
         HttpServletRequest req = (HttpServletRequest) servletRequest;
         String jwt = req.getHeader("token");
         Claims claims = JwtUtils.ParseJwt(jwt);
-        return fileTraversalService.TraverseFiles("resources\\UploadFile\\" + claims.get("id").toString());
+        return fileTraversalService.TraverseFiles(claims.get("id").toString());
     }
 }

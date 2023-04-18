@@ -12,11 +12,14 @@ import java.util.ArrayList;
 @Service
 public class FileTraversalService {
     private FileTraversalUtils fileTraversalUtils = new FileTraversalUtils();
-    public ArrayList<String> TraverseFiles(String path) throws IOException {
-        System.out.println(path);
-        Resource resource = new ClassPathResource(path);
-        System.out.println(resource.getFile().getPath());
-        File folder = new File(resource.getFile().getPath());
+    public ArrayList<String> TraverseFiles(String id) throws IOException {
+        String folderPath = "E:\\YSUACMOJ\\YSUACMOJ\\src\\main\\resources\\UploadFile\\" + id;
+//        String folderPath = "UploadFile\\" + id;
+        File folder = new File(folderPath);
+        if(!folder.exists()){
+            folder.mkdirs();
+        }
+//        System.out.println(path);
         return fileTraversalUtils.TraverseFiles(folder);
     }
 }
