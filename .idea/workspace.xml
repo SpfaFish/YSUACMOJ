@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43eab339-aece-44e0-b758-51abb1ee69dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Service/ScoreUpdateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/StuInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Controller/StuInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Dao/CompetitionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Dao/CompetitionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Mapper/CompetitionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ysu/szx/ysuacmoj/Mapper/CompetitionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/FileUpload.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/FileUpload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/GYM.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/GYM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/SignUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/SignUp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/UserMainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/UserMainPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/CompetitionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/CompetitionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/FileDownloadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/FileDownloadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/FileLoadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/FileLoadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ysu/szx/ysuacmoj/Controller/UploadController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +159,7 @@
       <workItem from="1681533009699" duration="210000" />
       <workItem from="1681533224582" duration="131000" />
       <workItem from="1681533362920" duration="8894000" />
-      <workItem from="1681789413581" duration="22833000" />
+      <workItem from="1681789413581" duration="24749000" />
     </task>
     <servers />
   </component>

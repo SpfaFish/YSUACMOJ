@@ -13,13 +13,13 @@ public interface CompetitionMapper {
     @Select("select id, password from competition where id = #{id}")
     public Competition GetById(String id);
 
-    @Select("select id, password from competition where name = #{name}")
+    @Select("select (name) from competition where name = #{name}")
     public Competition GetByName(String name);
 
     @Select("select * from competition")
     public ArrayList<Competition> GetAllCompetition();
 
-    @Insert("insert into competition (id, name, stuId, score) values (#{id}, #{name}, #{stuId}, #{score})")
+    @Insert("insert into competition (name, stuId, score) values (#{name}, #{stuId}, #{score})")
     public Integer Insert(Competition competition);
 
 
