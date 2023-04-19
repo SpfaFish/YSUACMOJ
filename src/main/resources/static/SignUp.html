@@ -90,18 +90,19 @@
       const name = document.getElementById('name').value;
       const nickName = document.getElementById('nickName').value;
       const password = document.getElementById('password').value;
-      const url = 'http://localhost:9000/register';
+      const url = 'http://localhost:9000/regist';
       fetch(url, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json'},
-        body: JSON.stringify({id, name,nickName,password})
+        body: JSON.stringify({id, name, nickName, password})
       })
               .then((response) => {
                 // 处理响应结果
                 if (response.ok) {
                   alert("注册成功！");
+                  window.location.href='./login.html'
                 } else {
-                  alert("注册失败，请检查输入是否正确！");
+                  alert("注册失败，用户名已存在");
                 }
               })
     });

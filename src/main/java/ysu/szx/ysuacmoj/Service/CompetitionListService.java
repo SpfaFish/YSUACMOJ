@@ -4,8 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
 import ysu.szx.ysuacmoj.Dao.CompetitionHeaderDao;
-import ysu.szx.ysuacmoj.Mapper.CompetitionHeaderMapper;
-import ysu.szx.ysuacmoj.Pojo.Competition;
 import ysu.szx.ysuacmoj.Pojo.CompetitionHeader;
 
 import java.util.ArrayList;

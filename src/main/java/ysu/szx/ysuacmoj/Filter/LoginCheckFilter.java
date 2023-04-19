@@ -26,9 +26,12 @@ public class LoginCheckFilter implements Filter {
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest req = (HttpServletRequest) servletRequest;
         HttpServletResponse resp = (HttpServletResponse) servletResponse;
+        resp.setHeader("Access-Control-Allow-Origin", "*");
+        resp.setHeader("Access-Control-Allow-Headers", "*");
         String url = req.getRequestURL().toString();
         System.out.println(url);
 //        System.out.println(req);
+//        filterChain.doFilter(servletRequest, servletResponse);//放行
         if(url.contains("http://localhost:9000/regist") || url.contains("http://localhost:9000/login")){
             filterChain.doFilter(servletRequest, servletResponse);//放行
             return;

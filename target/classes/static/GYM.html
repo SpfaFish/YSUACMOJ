@@ -130,6 +130,7 @@
       display: inline-block;
       font-size: 14px;
       border-radius: 5px;
+      margin-left: 10px;
     }
     .btn:hover {
       background-color: #3e8e41;
@@ -162,7 +163,9 @@
     <a href="#" class="menu-item">用户信息</a>
     <a href="./UserMainPage.html" class="menu-item">题库</a>
     <a href="#" class="ACMOJ">Welcome to YSUACMOJ!</a>
-
+    <button class="btn">
+      <a href="GYMregist.html" class="link-text">创建比赛</a>
+    </button>
     <a class="userid">
       用户名:<span id="username"></span>
     </a>
@@ -209,5 +212,6 @@
   const data = JSON.parse(decodedPayload);
   const usernameElement = document.getElementById('username');
   usernameElement.textContent = data.id;
+
 </script>
 </html>

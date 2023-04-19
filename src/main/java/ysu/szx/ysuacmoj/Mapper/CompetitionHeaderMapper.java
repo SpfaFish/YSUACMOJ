@@ -10,12 +10,12 @@ import java.util.ArrayList;
 
 @Mapper
 public interface CompetitionHeaderMapper {
-    @Select("select (id, name, flag) from competitionHeader where name = #{name}")
+    @Select("select name, flag from competitionHeader where name = #{name}")
     public CompetitionHeader GetByName(String name);
 
-    @Select("select * from competition")
+    @Select("select * from competitionHeader")
     public ArrayList<CompetitionHeader> GetAllCompetition();
 
-    @Insert("insert into competition (id, name, flag) values (#{id}, #{name}, #{flag})")
+    @Insert("insert into competitionHeader (name, flag) values (#{name}, #{flag})")
     public Integer Insert(CompetitionHeader competitionHeader);
 }

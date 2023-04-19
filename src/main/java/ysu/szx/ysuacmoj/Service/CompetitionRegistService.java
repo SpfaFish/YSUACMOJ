@@ -2,9 +2,7 @@ package ysu.szx.ysuacmoj.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ysu.szx.ysuacmoj.Dao.CompetitionDao;
 import ysu.szx.ysuacmoj.Dao.CompetitionHeaderDao;
-import ysu.szx.ysuacmoj.Pojo.Competition;
 import ysu.szx.ysuacmoj.Pojo.CompetitionHeader;
 import ysu.szx.ysuacmoj.Pojo.Results;
 
