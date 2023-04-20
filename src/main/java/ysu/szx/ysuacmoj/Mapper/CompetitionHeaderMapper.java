@@ -16,6 +16,9 @@ public interface CompetitionHeaderMapper {
     @Select("select * from competitionHeader")
     public ArrayList<CompetitionHeader> GetAllCompetition();
 
+    @Select("select * from competitionHeader where name like '%${name}%'")
+    public ArrayList<CompetitionHeader> FindCompetition(String name);
+
     @Insert("insert into competitionHeader (name, flag) values (#{name}, #{flag})")
     public Integer Insert(CompetitionHeader competitionHeader);
 }

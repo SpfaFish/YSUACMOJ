@@ -1,12 +1,12 @@
 package ysu.szx.ysuacmoj.Pojo;
 
-import io.jsonwebtoken.impl.crypto.RsaProvider;
+import java.util.ArrayList;
 
 public class Results {
     private Integer code;
     private String msg;
     private Object data;
-    public Results(){
+    public Results(ArrayList<CompetitionHeader> competitionHeaders){
 
     }
     public Results(Integer code, String msg, Object data){

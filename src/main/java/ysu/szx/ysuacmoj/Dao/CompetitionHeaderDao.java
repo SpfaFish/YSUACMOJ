@@ -24,4 +24,7 @@ public class CompetitionHeaderDao {
         if(competitionHeaderMapper.Insert(competitionHeader) == 1) return Results.Success();
         else return Results.Error("Insert failed");
     }
+    public Results Find(String name){
+        return Results.Success(competitionHeaderMapper.FindCompetition(name));
+    }
 }
